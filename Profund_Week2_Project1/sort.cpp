@@ -24,8 +24,9 @@ int *findMaxmin(int Array[5], int mode) { //หาตำแหน่งของ
 			}
 		}
 		else{
-			printf("Error");
+			printf("Error\n");
 			pos = 0;
+			break;
 		}
 	}
 	return &Array[pos];
